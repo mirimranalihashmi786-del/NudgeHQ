@@ -5,7 +5,7 @@
   "description": "NudgeHQ: a one-person back office for freelancers. Tracks invoices, forecasts cash flow, and drafts polite WhatsApp payment reminders.",
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && prisma db push && next build",
+    "build": "prisma generate && prisma db push && prisma db seed && next build",
     "start": "next start",
     "lint": "next lint"
   },
